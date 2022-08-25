@@ -7,11 +7,11 @@ public class EmpWageCalculation {
        double attendance = Math.floor(Math.random()*10)%2;
        if(attendance == isPresent)
        {
-    	   System.out.println("Employee is present.");
+    	   System.out.println("Employee is present today.");
        }
        else
        {
-    	   System.out.println("Employee is absent.");
+    	   System.out.println("Employee is absent today.");
        }
 	}
 
